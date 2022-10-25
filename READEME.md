@@ -46,18 +46,17 @@
 
 학점의 정책이 추가되는 경우와 과목이 추가되는 경우를 고려하여 객체를 설계하고 학점 정책에 대해서는 인터페이스를 선언하고 각 정책이 해당 인터페이스를 구현하도록 합니다.
 
-국어 과목 결과
-
-
-
-수학 과목 결과
-
-
-
 
 ### 클래스 정의 하고 관계도 그리기
 
+<img src = "https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter7/img/student.png">
 
 
+### 학점 평가 정책 설계하고 구현하기
 
+인터페이스 정의하기
+
+점수에 따른 학점의 정책은 여러가지가 있을 수 있습니다. 인터페이스를 먼저 선언하고, 각 정책 클래스가 이를 구현하도록 합니다
+
+<img src= "https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter7/img/grade.png">
 
